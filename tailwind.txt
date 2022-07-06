@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/tailwind.css">
+</head>
+
+<body>
+
+    <section class="container mx-auto px-6 py-20">
+        <div class="grid lg:grid-cols-2 gap-12 2xl:gap-20">
+            <div
+                class="border-2 border-gray-200 p-5 flex flex-col lg:flex-row lg:space-x-4 2xl:space-x-8 space-y-8 lg:space-y-0">
+                <img src="https://source.unsplash.com/random/1920x1080/?wallpaper,landscape" alt=""
+                    class="w-full lg:w-1/2 h-[400px] object-cover">
+                <div class="">
+                    <p class="text-base text-black mb-10">Click the Send SMS Button to recive an SMS on +35389****811
+                        with
+                        link to download the ID-Pal App. Please follow the instructions on the ID-Pal App to Continue
+                    </p>
+                    <div class="text-center">
+                        <button
+                            class="text-lg font-bold px-8 xl:px-12 py-3 border-2 border-purple-600 text-slate-800 rounded-lg">Send
+                            SMS</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-2 border-gray-200 p-5">
+                <img src="https://source.unsplash.com/random/1920x1080/?wallpaper,landscape" alt=""
+                    class="w-full h-[250px] object-cover mb-12">
+                <p class="text-base text-black mb-8">Waiting for ID Verification Confirmation</p>
+                <p class="text-base text-black">if you have completed the ID-Pal process Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Labore, ducimus! <a href="#" class="text-blue-500">Click Here</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
